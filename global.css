@@ -1,0 +1,26 @@
+:root {
+  --color-background: #ededed;
+  --color-header-footer-bg: #271784;
+  --color-accent: #fb6262;
+  --color-text-light: #ffffff;
+  --color-text-dark: #161616;
+  --font-primary: 'Montserrat', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-primary);
+  background-color: var(--color-background);
+}
+
+.page-container {
+  max-width: 414px;
+  margin: 0 auto;
+  background-color: var(--color-background);
+  position: relative;
+  overflow-x: hidden;
+}
